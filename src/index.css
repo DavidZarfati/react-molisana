@@ -8,6 +8,12 @@ img {
   max-width: 100%;
 }
 
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  width: 80%;
+}
+
 .d-flex {
   display: flex;
 }
@@ -36,4 +42,39 @@ a {
 .py-40 {
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.my-40 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+/* PRODUCTS */
+.col {
+  width: calc(100%/4);
+  min-height: 100px;
+  background-color: white;
+  padding: 10px;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.border-blue {
+  border: 1px solid blue;
+}
+
+.border-green {
+  border: 1px solid green;
+}
+
+.border-red {
+  border: 1px solid red;
 }
